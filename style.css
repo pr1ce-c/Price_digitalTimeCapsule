@@ -1,0 +1,45 @@
+* {
+    background-color: #D9D3B8;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+body {
+    flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;  
+    font-family: 'Lilita One', cursive; 
+}
+
+h1{
+    color: #59512a;
+}
+
+p{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+header>nav {
+    flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+    text-align: center;
+    font-size: 25px;
+    margin: 0px;
+    
+}
+
+header>nav>a {
+    text-decoration: none;
+    text-transform:lowercase;
+    color: #732f2f;
+    padding: 55px;
+}
+
+.playlists {
+    border: black;
+    border-style: solid;
+}
