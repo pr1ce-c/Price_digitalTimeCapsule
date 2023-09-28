@@ -4,25 +4,33 @@
     flex-direction: column;
 }
 body {
+    text-align: center;
     flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-evenly;  
-    font-family: 'Lilita One', cursive; 
+     
 }
 
 h1{
     color: #59512a;
+    font-family: 'Lilita One', cursive;
+    font-size: 75px;
 }
 
 p{
-    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
+    margin-left: 40%;
+    margin-right: 40%;
 }
 
 
 header>nav {
+    font-family: 'Lilita One', cursive;
     flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
@@ -39,7 +47,29 @@ header>nav>a {
     padding: 55px;
 }
 
-.playlists {
-    border: black;
-    border-style: solid;
+
+img {
+    align-items: center;
+    
+}
+
+.container {
+    margin-left: 0%;
+    margin-right: 0%;
+    flex-direction: column;
+}
+
+.star-gif {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+a {
+    
+    font-family: 'Lilita One', cursive;
+    text-decoration: none;
+    color: #732f2f;
+
 }
